@@ -37,3 +37,13 @@ Frontend:
 cd frontend
 npm install
 npm run dev
+
+## Câu 6. Docker Frontend
+
+Docker Image: quynhnhu26/frontend:1.0
+
+Docker Hub:
+https://hub.docker.com/r/quynhnhu26/frontend
+
+Chạy container:
+docker run -d --name frontend-235349 -p 8080:80 quynhnhu26/frontend:1.0
